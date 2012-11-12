@@ -22,9 +22,8 @@ typography
 ------------------------------------------------------------------*/
 /*headers*/
 h1, .h1{font-family: 'Yanone Kaffeesatz', arial, serif;font-size:48px;font-weight:700;margin-top:-5px;}
-h2, .h2{font-family: 'Crushed', arial, serif;font-size:19px;color:#333;text-transform:lowercase;color:#808080;}
-h3, .h3{font-family: 'Yanone Kaffeesatz', arial, serif;font-size:32px;font-weight:700;margin-bottom:20px;}
-h4, .h4{font-family: 'Crushed', arial, serif;font-size:19px;color:#333;text-transform:lowercase;}
+h2, .h2{font-family: 'Yanone Kaffeesatz', arial, serif;font-size:32px;font-weight:700;margin-bottom:20px;}
+h3, .h3{font-family: 'Crushed', arial, serif;font-size:19px;color:gray;text-transform:lowercase;}
 /*fonts*/
 .crushed14{font-family: 'Crushed', arial, serif;font-size:14px;color:#333;text-transform:lowercase;}
 .crushed17{font-family: 'Crushed', arial, serif;font-size:17px;color:#333;text-transform:lowercase;}
@@ -310,16 +309,6 @@ copyright
 .copyright_left{float:left;color:#333;margin:10px 0px;font-size:11px;}
 .copyright_right a{float:right;color:#333;margin:10px 10px 0px 10px;font-size:11px;}
 .copyright_right a:hover{color:#999;}
-/*------------------------------------------------------------------
-onewish
-------------------------------------------------------------------*/
-.onewish_donate #donate_btn{width:150px;float:left;}
-.onewish_donate{width:295px;margin:-140px 0 0 210px;min-height:30px;}
-.onewish_step .crushed29{margin:-45px 21px;position:absolute;color:#ccc;}
-.onewish_boxes:first-child{margin-left:0px;}
-.onewish_boxes{float:left;width:90px;margin:0 0 20px 10px;height:45px;padding:15px;background:url('../images/stripes_light.png') repeat;border:5px solid #ececec;}
-.progress{position:absolute;margin:-85px 500px;width:600px;}
-.onewish_name,.onewish_number{text-align:center;}
 /*------------------------------------------------------------------
 blog
 ------------------------------------------------------------------*/

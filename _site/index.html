@@ -28,7 +28,7 @@
     window._gaq = [['_setAccount','UA-28551290-1'],['_trackPageview']];
     yepnope({
       load: ['//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js',
-             '/assets/site.js'
+             'assets/site.js'
             ]
     });
   </script>
@@ -36,110 +36,127 @@
 </head>
 <body>
 
-<div id="wrapper" class="clearwater_home home">
+<header class="header">
 
-  <header class="header">
-
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" name="donate_form" id="donate_form">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" name="donate_form" id="donate_form">
       <input name="item_merchant_id_1" type="hidden" value="GO_ClearWater"><!-- #BeginLibraryItem "/library/clearwater_header.lbi" -->
       <input type="hidden" name="cmd" value="_s-xclick"> <input type="hidden" name="hosted_button_id" value="QK7EQK2P9CW4W">
       <input type="hidden" name="return" value="http://www.giveclearwater.org/thankyou/donation.php?utm_nooverride=1">
       <input type="hidden" name="cancel_return" value="http://www.giveclearwater.org/index.html?utm_nooverride=1">
     </form>
-        <nav class="nav yanone19">
-      <a id="site_title" href="/">ClearWater</a>
-      <ul>
-        <li id="projects"><a href="project">project</a></li>
-        <li id="about"><a href="about">about</a></li>
-        <li id="blog"><a href="http://www.groundworkopportunities.org/blog/tag/clearwater/" target="_blank">blog</a></li>
-        <li id="donate"><a href="javascript:document.donate_form.submit();">donate</a></li>       	
-      </ul>
-    </nav>
+  <nav class="nav container yanone19">
+  <a id="site_title" href="/">ClearWater</a>
+  <ul>
+    <li id="projects"><a href="project">project</a></li>
+    <li id="about"><a href="about">about</a></li>
+    <li id="blog"><a href="http://www.groundworkopportunities.org/blog/tag/clearwater/" target="_blank">blog</a></li>
+    <li id="donate"><a href="javascript:document.donate_form.submit();">donate</a></li>       	
+  </ul>
+</nav>
 
 
-  </header>
+</header>
 
-  <div id="main">
+<div class="container">
     
-    <div id="content">
+  <aside class="social_container">
 
-      <aside class="social_container">
+  </aside>
 
-      </aside>
-
-			<ul id="jsddm" class="subnav yanone19"> 
-        <li id="english_subnav"><a href="#english">English</a></li> 	
-        <li id="deutsch_subnav"><a href="#deutsch">deutsch</a></li> 
-      </ul>
+  <nav class="language clearfix">
+  	<ul> 
+      <li><a href="en">English</a></li> 	
+      <li><a href="de">Deutsch</a></li> 
+    </ul>
+  </nav>
       
-      <div class="clear"></div>
-        
-      <div class="module borders nomargins">
-      	<div class="split">
-          
-          	<h4>Our Mission</h4>
-          	<h1>Give ClearWater</h1>
+  <header class="page clearfix">
+    <aside class="progress">
+      <ul>
+        <li>
+            <div class="onewish_name">fundraising goal</div>
+            <div class="onewish_number">$250,000</div>
+        </li>
+        <li>
+            <div class="onewish_name">amount raised</div>
+            <div class="onewish_number">$132,134</div>
+        </li>
+        <li>
+            <div class="onewish_name">progress made</div>
+            <div class="onewish_number">53%</div>
+        </li>
+      </ul>
+    </aside>
+  	<h3>Our Mission</h3>
+  	<h1>Give ClearWater</h1>
+  </header>
             
-          <div class="progress">
-              <div class="onewish_boxes">
-                  <div class="onewish_name"><p class="crushed14">fundraising goal</p><p></p></div>
-                  <div class="onewish_number"><p class="h3 goal"></p></div>
-              </div>
-              <div class="onewish_boxes">
-                  <div class="onewish_name"><p class="crushed14">amount raised</p><p></p></div>
-                  <div class="onewish_number"><p class="h3"></p></div>
-              </div>
-              <div class="onewish_boxes">
-                  <div class="onewish_name"><p class="crushed14">progress made</p><p></p></div>
-                  <div class="onewish_number"><p class="h3"></p></div>
-              </div>
-          </div>
-        </div>
-      </div>
-            
-      <div class="module noborders nomargins leftindent">
-          <div id="galleria_holder">
-                  <div id="galleria">
-                  	<iframe src="http://player.vimeo.com/video/42667819?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                  </div>
-          </div>
-                
-          <div class="homepage_donation">          	 
-          	<a id="champions_btn" href="javascript:document.donate_form.submit();">support clearwater</a>   
-          </div>
-          <br><br>
-                    
-      </div>
-
+  <section class="video">
+    
+    <div class="video-embed">
+      <iframe src="http://player.vimeo.com/video/42667819?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
     
-        <footer class="footer"> 
-      <div class="footer_inner">
-          <div id="go_logo" class="footer_logo">
-        		<a href="http://www.groundworkopportunities.org" target="_blank"><img src="images/go_white.png" alt="groundwork opportunities" /></a>
-          </div>
-          <div id="angel_logo" class="footer_logo">
-        		<a href="http://www.savinganangel.org" target="_blank"><img src="images/saving_an_angel.png" alt="saving an angel" /></a>
-          </div>
-          <div id="ran_logo" class="footer_logo">
-        		<a href="http://www.ran.org" target="_blank"><img src="images/ran.png" alt="rainforest action network" /></a>
-          </div>
-          <div id="aw_logo" class="footer_logo">
-        		<a href="http://www.amazonwatch.org" target="_blank"><img src="images/amazon_watch.png" alt="amazon watch" /></a>
-          </div>
-          <div id="frente_logo" class="footer_logo">
-        		<a href="http://www.texacotoxico.org/eng/" target="_blank"><img src="images/frente.png" alt="frente de la defensa de la amazonia" /></a>
-          </div>
-      </div>
-    </footer>
+  	<a class="donate_btn" href="javascript:document.donate_form.submit();">support clearwater</a>   
+
+  </section>
+  
+  <section class="content">
     
-        <footer class="copyright">
+  <h3>Rise <a href="http://www.groundworkopportunities.org/become-a-clearwater-champion/"><img src="images/clearwater_dark.png" alt="Become a Champion" /></a></h3>
+
+<h2>Become a Champion</h2>
+
+<p>Become a ClearWater Champion and give 100% to clean water solutions in Ecuador. Build your personal Champion page and goal, crowdsource the fundraising through networks and friends, and GO applies 100% of donations to ClearWater and then your friends see the direct impact on the ground.</p>
+
+<p><a href="http://www.groundworkopportunities.org/become-a-clearwater-champion/">Become a Champion</a></p>
+
+<h3>learn<a href="http://www.giveclearwater.org/project/"><img src="images/ecuador.jpg" alt="The Vision" /></a></h3>
+
+<h2>The Vision</h2>
+
+<p>ClearWater is a community-led clean water project which seeks to provide sustainable clean water to more than 2,000 indigenous and farmer families spread across 20 villages in the oil-ravaged areas of the northeastern Ecuadorian Amazon.</p>
+
+<p><a href="project">ClearWater Project</a></p>
+
+<h3>Champion <a href="http://www.giveclearwater.org/project/"><img src="images/raymond.jpg" alt="Rea Garvey" /></a></h3>
+
+<h2>Rea Garvey</h2>
+
+<p>In June of 2011, I had the great opportunity to journey to the heart of the Ecuadorian Amazon, where I met Donald Moncayo. Donald is a father and a son and a husband. He lost his own mother due to cancer and he, as well, suffers from respiratory problems. Donald knows that his own wife and daughter will, sooner or later, be victims of the contamination.</p>
+
+<p><a href="rea">Rea Garvey</a></p>
+
+    
+  </section>
+  
+</div>
+    
+<footer> 
+  <ul class="container">
+      <li>
+    		<a href="http://www.groundworkopportunities.org" target="_blank"><img src="images/go_white.png" alt="groundwork opportunities" /></a>
+      </li>
+      <li>
+    		<a href="http://www.savinganangel.org" target="_blank"><img src="images/saving_an_angel.png" alt="saving an angel" /></a>
+      </li>
+      <li>
+    		<a href="http://www.ran.org" target="_blank"><img src="images/ran.png" alt="rainforest action network" /></a>
+      </li>
+      <li>
+    		<a href="http://www.amazonwatch.org" target="_blank"><img src="images/amazon_watch.png" alt="amazon watch" class="aw_logo" /></a>
+      </li>
+      <li>
+    		<a href="http://www.texacotoxico.org/eng/" target="_blank"><img src="images/frente.png" alt="frente de la defensa de la amazonia" class="frente_logo" /></a>
+      </li>
+  </ul>
+</footer>
+    
+    <footer class="copyright">
         <div class="copyright_inner">
             <p class="copyright_left ptsans">&copy; 2012 Groundwork Opportunities</p><p class="copyright_right ptsans"><a href="javascript:document.donate_form.submit();">Donate</a><a href="http://www.groundworkopportunities.org/blog/tag/clearwater/">Blog</a><a href="about/">About</a><a href="">Home</a></p>
         </div>
     </footer>
-      
-  </div>
-</div>
+
 </body>
 </html>

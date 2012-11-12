@@ -36,74 +36,68 @@
 </head>
 <body>
 
-<div id="wrapper" class="clearwater_home home">
+<header class="header">
 
-  <header class="header">
+  {% include donate_form.html %}
+  {% include en/nav.html %}
 
-    {% include donate_form.html %}
-    {% include en/nav.html %}
+</header>
 
-  </header>
-
-  <div id="main">
+<div class="container">
     
-    <div id="content">
+  <aside class="social_container">
 
-      <aside class="social_container">
+  </aside>
 
-      </aside>
-
-			<ul id="jsddm" class="subnav yanone19"> 
-        <li id="english_subnav"><a href="#english">English</a></li> 	
-        <li id="deutsch_subnav"><a href="#deutsch">deutsch</a></li> 
-      </ul>
+  <nav class="language clearfix">
+  	<ul> 
+      <li><a href="en">English</a></li> 	
+      <li><a href="de">Deutsch</a></li> 
+    </ul>
+  </nav>
       
-      <div class="clear"></div>
-        
-      <div class="module borders nomargins">
-      	<div class="split">
-          
-          	<h4>{{ page.subtitle }}</h4>
-          	<h1>{{ page.title }}</h1>
+  <header class="page clearfix">
+    <aside class="progress">
+      <ul>
+        <li>
+            <div class="onewish_name">fundraising goal</div>
+            <div class="onewish_number">$250,000</div>
+        </li>
+        <li>
+            <div class="onewish_name">amount raised</div>
+            <div class="onewish_number">$132,134</div>
+        </li>
+        <li>
+            <div class="onewish_name">progress made</div>
+            <div class="onewish_number">53%</div>
+        </li>
+      </ul>
+    </aside>
+  	<h3>{{ page.subtitle }}</h3>
+  	<h1>{{ page.title }}</h1>
+  </header>
             
-          <div class="progress">
-              <div class="onewish_boxes">
-                  <div class="onewish_name"><p class="crushed14">fundraising goal</p><p></p></div>
-                  <div class="onewish_number"><p class="h3 goal"></p></div>
-              </div>
-              <div class="onewish_boxes">
-                  <div class="onewish_name"><p class="crushed14">amount raised</p><p></p></div>
-                  <div class="onewish_number"><p class="h3"></p></div>
-              </div>
-              <div class="onewish_boxes">
-                  <div class="onewish_name"><p class="crushed14">progress made</p><p></p></div>
-                  <div class="onewish_number"><p class="h3"></p></div>
-              </div>
-          </div>
-        </div>
-      </div>
-            
-      <div class="module noborders nomargins leftindent">
-          <div id="galleria_holder">
-                  <div id="galleria">
-                  	<iframe src="http://player.vimeo.com/video/42667819?title=0&amp;byline=0&amp;portrait=0" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                  </div>
-          </div>
-                
-          <div class="homepage_donation">          	 
-          	<a id="champions_btn" href="javascript:document.donate_form.submit();">support clearwater</a>   
-          </div>
-          <br><br>
-                    
-      </div>
-
+  <section class="video">
+    
+    <div class="video-embed">
+      <iframe src="http://player.vimeo.com/video/42667819?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
     
-    {% include footer.html %}
+  	<a class="donate_btn" href="javascript:document.donate_form.submit();">support clearwater</a>   
+
+  </section>
+  
+  <section class="content">
     
-    {% include en/footer_copyright.html %}
-      
-  </div>
+  {{ content }}
+    
+  </section>
+  
 </div>
+    
+{% include footer.html %}
+    
+{% include en/footer_copyright.html %}
+
 </body>
 </html>
