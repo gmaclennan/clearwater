@@ -1,0 +1,28 @@
+/*------------------------------------------------------------------
+clearwater
+------------------------------------------------------------------*/
+.footer{height:200px;}
+#site_title{background:url('../images/clearwater.png') no-repeat;width:264px;}
+.quote{height:220px;padding:225px 20px;}
+.quote.deutsch{height:325px;padding:165px 20px;}
+.clearwater_home .scroll{overflow: auto;position: relative;clear: left;overflow-x:hidden;overflow-y:hidden;width:960px;height:1350px;}
+.clearwater_home .scrollContainer div.panel {width:960px;height:1350px;}
+.clearwater_about .scroll{overflow: auto;position: relative;clear: left;overflow-x:hidden;overflow-y:hidden;width:960px;height:900px;}
+.clearwater_about .scrollContainer div.panel {width:960px;height:900px;}
+.clearwater_champions .scroll{overflow: auto;position: relative;clear: left;overflow-x:hidden;overflow-y:hidden;width:960px;height:770px;}
+.clearwater_champions .scrollContainer div.panel {width:960px;height:770px;}
+.clearwater_project .scroll{overflow: auto;position: relative;clear: left;overflow-x:hidden;overflow-y:hidden;width:960px;height:1400px;}
+.clearwater_project .scrollContainer div.panel {width:960px;height:1400px;}
+.footer_logo{float:left;text-align:center;padding:55px 41px;}
+.footer_logo:first-child{padding-left:0px;}
+.footer_logo:last-child{padding-right:0px;}
+#frente_logo{margin-top:-35px;}
+#aw_logo{margin-top:-20px;}
+.project_donate{width:auto;}
+.champions li#champions{border-bottom:5px solid #333;padding-bottom:33px;}
+.champions li#champions a{color:#17aae4;}
+.thankyou_banner{margin-bottom:0px;}
+.social_container{position: absolute;margin-top: 20px;}
+.social_container .twitter_btn, .social_container .google_btn, .social_container .fb_btn{float:left;}
+.homepage_donation {margin:0px auto;width:200px;}
+.home #galleria {height:506px;}

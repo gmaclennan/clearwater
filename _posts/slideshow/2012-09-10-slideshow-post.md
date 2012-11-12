@@ -1,0 +1,4 @@
+---
+layout: index
+---
+slideshow post
